@@ -7,6 +7,7 @@ import MainMenu from "@/app/components/MainMenu";
 export default function IWrite() {
   return (
     <>
+    <EditorBox>
       <Header />
       <MiddleBox>
         <LeftMenu />
@@ -14,6 +15,7 @@ export default function IWrite() {
         <RightMenu />
       </MiddleBox>
       <Footer />
+      </EditorBox>
     </>
   );
 }
