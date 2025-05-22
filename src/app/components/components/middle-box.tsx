@@ -3,7 +3,7 @@ import LeftMenu from "./components/left-menu";
 import CenterContent from "./components/center-content";
 import RightMenu from "./components/right-menu";
 import BottomMenu from "./components/bottom-menu";
-export default function CenterBox() {
+export default function MiddleBox() {
   return (
     <div>
       <TopMenu />

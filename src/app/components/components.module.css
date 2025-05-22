@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  height: 32px;
+  border-bottom: 2px solid var(--foreground);
+}
+.main {
+  width: 100%;
+  height: auto;
+}
+.footer {
+  width: 100%;
+  height: 16px;
+  border-top: 2px solid var(--foreground);
+}
