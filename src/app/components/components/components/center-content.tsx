@@ -1,3 +1,4 @@
+import styles from "./uni.module.css";
 export default function CenterContent() {
-  return <div></div>;
+  return <div className={styles.centerContent}></div>;
 }

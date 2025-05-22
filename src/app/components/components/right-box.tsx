@@ -1,3 +1,4 @@
+import styles from "./components.module.css";
 export default function RightBox() {
-  return <div></div>;
+  return <div className={styles.rightBox}></div>;
 }

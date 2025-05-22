@@ -6,7 +6,7 @@ export default function IWrite() {
     <>
       <Header />
       <Main />
-      <Footer />{" "}
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,17 @@
+.left-box{
+    height:100%;
+    width:240px;
+    border-right:2px solid var(--foreground);
+}
+.middle-box{
+    height:100%;
+    width:auto;
+    flex:0;
+    display:flex;
+    flex-direction:column;
+}
+.right-box{
+    height:100%;
+    width:240px;
+    border-left:2px solid var(--foreground);
+}
