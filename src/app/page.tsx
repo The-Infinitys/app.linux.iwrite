@@ -1,21 +1,12 @@
-import Header from "@/app/components/Header";
-import Footer from "@/app/components/Footer";
-import MiddleBox from "@/app/components/MiddleBox";
-import LeftMenu from "@/app/components/LeftMenu";
-import RightMenu from "@/app/components/RightMenu";
-import MainMenu from "@/app/components/MainMenu";
+import Header from "./components/header";
+import Main from "./components/main";
+import Footer from "./components/footer";
 export default function IWrite() {
   return (
     <>
-    <EditorBox>
       <Header />
-      <MiddleBox>
-        <LeftMenu />
-        <MainMenu />
-        <RightMenu />
-      </MiddleBox>
-      <Footer />
-      </EditorBox>
+      <Main />
+      <Footer />{" "}
     </>
   );
 }
