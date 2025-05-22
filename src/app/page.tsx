@@ -3,14 +3,14 @@ import Footer from "@/app/components/Footer";
 import MiddleBox from "@/app/components/MiddleBox";
 import LeftMenu from "@/app/components/LeftMenu";
 import RightMenu from "@/app/components/RightMenu";
-import Editor from "@/app/components/Editor";
+import MainMenu from "@/app/components/MainMenu";
 export default function IWrite() {
   return (
     <>
       <Header />
       <MiddleBox>
         <LeftMenu />
-        <Editor />
+        <MainMenu />
         <RightMenu />
       </MiddleBox>
       <Footer />
