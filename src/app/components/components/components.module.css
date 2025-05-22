@@ -1,17 +1,17 @@
-.left-box{
+.leftBox{
     height:100%;
-    width:240px;
+    width:120px;
     border-right:2px solid var(--foreground);
 }
-.middle-box{
+.middleBox{
     height:100%;
-    width:auto;
-    flex:0;
+    width:calc(100vw - 240px);
+    background:#f00;
     display:flex;
     flex-direction:column;
 }
-.right-box{
+.rightBox{
     height:100%;
-    width:240px;
+    width:120px;
     border-left:2px solid var(--foreground);
 }
